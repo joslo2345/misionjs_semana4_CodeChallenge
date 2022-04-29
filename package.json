@@ -1,0 +1,27 @@
+{
+  "name": "misionjs_semana4_codechallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joslo2345/misionjs_semana4_CodeChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joslo2345/misionjs_semana4_CodeChallenge/issues"
+  },
+  "homepage": "https://github.com/joslo2345/misionjs_semana4_CodeChallenge#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  }
+}
