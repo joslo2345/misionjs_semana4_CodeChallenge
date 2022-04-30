@@ -17,19 +17,19 @@ El siguiente diagrama de muestra la estructura de las carpetas y archivos:
 
 ```mermaid
   graph TD;
-      "./"-->students.json;
-      "./"-->"test/";
-      "./"-->"lib/";
-      "lib/"-->"utils/";
-      "utils/"-->Reader.js;
-      "lib/"-->"services/";
-      "services/"-->StudentService.js;
-      "lib/"-->"controllers/";
-      "controllers/"-->StudentsController.js;
-      "test/"-->"utils/";
-      "utils/"-->Reader.test.js;
-      "test/"-->"services/";
-      "services/"-->StudentService.test.js;
-      "test/"-->"controllers/";
-      "controllers/"-->StudentsController.test.js;
+      ./-->students.json;
+      ./-->test/;
+      ./-->lib/;
+      lib/-->utils/;
+      utils/-->Reader.js;
+      lib/-->services/;
+      services/-->StudentService.js;
+      lib/-->controllers/;
+      controllers/-->StudentsController.js;
+      test/-->utils/;
+      utils/-->Reader.test.js;
+      test/-->services/;
+      services/-->StudentService.test.js;
+      test/-->controllers/;
+      controllers/-->StudentsController.test.js;
 ```
