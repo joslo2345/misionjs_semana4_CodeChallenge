@@ -33,3 +33,11 @@ El siguiente diagrama de muestra la estructura de las carpetas y archivos:
       ./test/-->./test/controllers/;
       ./test/controllers/-->StudentsController.test.js;
 ```
+
+Se implemetaron los siguientes endpoints en la API
+
+| Endpoint | Request | Response |
+|---|---|---|
+| `localhost:3000/v1/students` | `localhost:3000/v1/students` | Deberás obtener la lista de todos los estudiantes |
+| `localhost:3000/v1/students/certification` | `localhost:3000/v1/students/certification` | Deberás obtener la la lista de todos los estudiantes con certificacion |
+| `localhost:3000/v1/students/credits/:credits` | `localhost:3000/v1/students/credits/500` | Deberás obtener la lista de estudiantes con 500 creditos o mas |
